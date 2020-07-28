@@ -9,7 +9,7 @@ import { Component, OnInit, Input, Renderer2, ChangeDetectionStrategy, OnDestroy
 export class BoxComponent implements OnInit, OnDestroy {
   private _keyboardEvents: boolean;
 
-  //to sent event to parent when delete key is pressed
+  //to send event to parent when delete key is pressed
   @Output('delete') onDelete: EventEmitter<boolean> = new EventEmitter<boolean>();
 
   @Input('id') boxId: number;
