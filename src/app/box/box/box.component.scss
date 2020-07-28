@@ -1,0 +1,15 @@
+.box{
+  width: 80px;
+  height: 60px;
+  border: 1px solid #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  
+  &.active{
+    outline: 1px solid yellow;
+    border: 1px solid #eee;
+  }
+}
